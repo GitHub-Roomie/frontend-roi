@@ -1,0 +1,30 @@
+# Expert Template for Customer Support Automation ROI Calculator
+# Expected format for expert users
+
+DIMENSION: Agent Underutilization
+==================================================
+¿What is the average number of support agents? [EXAMPLE: 50]
+¿What is the average hourly cost per agent? [EXAMPLE: 25.00]
+¿What percentage of time are agents idle or underutilized? [EXAMPLE: 30%]
+¿What is the average monthly working hours per agent? [EXAMPLE: 160]
+
+DIMENSION: Infrastructure and Technology
+==================================================
+¿What is the annual cost of support platform licenses? [EXAMPLE: 120000.00]
+¿What is the annual cost of telephony and communication systems? [EXAMPLE: 50000.00]
+¿What is the annual cost of IT infrastructure maintenance? [EXAMPLE: 35000.00]
+¿What is the annual cost of third-party integrations and APIs? [EXAMPLE: 25000.00]
+
+DIMENSION: Personnel Turnover
+==================================================
+¿What is the annual turnover rate for support agents? [EXAMPLE: 25%]
+¿What is the average cost to hire and onboard a new agent? [EXAMPLE: 5000.00]
+¿What is the average training duration in weeks for new agents? [EXAMPLE: 4]
+¿What is the productivity loss percentage during training period? [EXAMPLE: 50%]
+
+# USER INSTRUCTIONS:
+# 1. Replace [EXAMPLE: value] with your actual data
+# 2. You can omit the 'DIMENSION:' lines if you prefer
+# 3. Maintain the question-answer format
+# 4. Numeric values do not require any specific formatting
+# 5. Percentages can be written as 30% or 0.3
