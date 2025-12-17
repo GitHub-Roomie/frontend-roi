@@ -93,7 +93,6 @@ export default function ChatInterface() {
     'cost_to_hire': 'Cost to Hire',
     'compliance': 'Contract Management Compliance',
     'real_time_insights': 'Real Time Insights',
-    'customer_support_automation': 'Customer Support Automation',
     'physical-ai': 'Physical AI',
     'web-takeover': 'Web Interface Takeover',
   };
@@ -455,9 +454,6 @@ export default function ChatInterface() {
                 } else if (roiSystem === 'real_time_insights') {
                   templateFile = '/Plantilla_Real_Time_Insights.txt';
                   templateName = 'template_real_time_insights.txt';
-                } else if (roiSystem === 'customer_support_automation') {
-                  templateFile = '/Plantilla_Customer_Support_Automation.txt';
-                  templateName = 'template_customer_support_automation.txt';
                 } else {
                   // Default template
                   templateFile = '/Plantilla_Legacy_TakeOver.txt';
