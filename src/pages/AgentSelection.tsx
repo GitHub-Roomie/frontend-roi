@@ -28,6 +28,7 @@ export default function AgentSelection() {
     'cost_to_hire': 'Cost to Hire',
     'compliance': 'Contract Management Compliance',
     'real_time_insights': 'Real Time Insights',
+    'customer_support_automation': 'Customer Support Automation',
     'physical-ai': 'Physical AI',
     'web-takeover': 'Web Interface Takeover',
   };
