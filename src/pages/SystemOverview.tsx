@@ -42,12 +42,10 @@ const systemConfigs: Record<string, { name: string; dimensions: string[] }> = {
   'customer_support': {
     name: 'Agentic Customer Support',
     dimensions: [
-      'Response Time',
-      'Resolution Rate',
-      'Customer Satisfaction',
-      'Agent Productivity',
-      'Cost per Ticket',
-      'First Contact Resolution',
+      'Cost for Delay in Case Handling',
+      'Cost for Case Recurrence',
+      'Operational Cost',
+      'Cost for Poor Quality',
     ],
   },
   'insights': {
