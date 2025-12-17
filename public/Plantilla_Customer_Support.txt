@@ -1,31 +1,48 @@
-# Expert Template to Customer Support ROI Calculator
-
+# Expert template to Customer Support ROI Calculator
 DIMENSION: Cost for Delay in Case Handling
 ==================================================
-¿What is the current average case handling time in seconds? [EXAMPLE: 500]
-¿What is the desired average case handling time in seconds? [EXAMPLE: 500]
-¿How many cases are there per year? [EXAMPLE: 10000]
-¿What is the cost per agent per second? [EXAMPLE: 1500.00]
+¿What is the current average case handling time in seconds?? [EXAMPLE: 500]
+¿What is the desired average case handling time in seconds?? [EXAMPLE: 500]
+¿How many cases are there per year?? [EXAMPLE: 10000]
+¿What is the cost per agent per second?? [EXAMPLE: 1500.00]
 
 DIMENSION: Cost for Case Recurrence
 ==================================================
-¿How many cases are there per year? [EXAMPLE: 10000]
-¿What percentage of cases were resolved in the first iteration? [EXAMPLE: 60%]
-¿What is the annual operational cost? [EXAMPLE: 1500.00]
+¿How many cases are there per year?? [EXAMPLE: 10000]
+¿What percentage of cases were resolved in the first iteration?? [EXAMPLE: 60%]
+¿What is the average cost per contact?? [EXAMPLE: 1500.00]
 
 DIMENSION: Operational Cost
 ==================================================
-¿What is the operational cost without considering the IT area? [EXAMPLE: 1500.00]
+¿What is the annual operational cost without considering the IT area?? [EXAMPLE: 1500.00]
 
 DIMENSION: Cost for Poor Quality
 ==================================================
-¿How many calls did not meet the expected quality annually? [EXAMPLE: 10000]
-¿What is the percentage of those calls that had recurrence? [EXAMPLE: 60%]
-¿What is the annual operational cost? [EXAMPLE: 1500.00]
+¿How many calls did not meet the expected quality per year?? [EXAMPLE: 10000]
+¿What is the percentage of those calls that had recurrence?? [EXAMPLE: 60%]
+¿What is the average cost per contact?? [EXAMPLE: 1500.00]
+
+DIMENSION: Inefficient Agent Usage
+==================================================
+¿What is the actual real usage percentage of agents? [EXAMPLE: 80]? [EXAMPLE: 60%]
+¿What is the amount of paid hours to the call center team per year? [EXAMPLE: 36000]? [EXAMPLE: 10000]
+¿What is the average amount paid per hour? [EXAMPLE: 150.00]? [EXAMPLE: 1500.00]
+
+DIMENSION: Infrastructure and Technology Costs
+==================================================
+¿How much is paid annually for infrastructure purchase or maintenance? [EXAMPLE: 800000.00]? [EXAMPLE: 1500.00]
+¿What is the annual amount paid for software license purchase or acquisition? [EXAMPLE: 600000.00]? [EXAMPLE: 1500.00]
+
+DIMENSION: Personnel Turnover Costs
+==================================================
+¿How many technical support people resign per year? [EXAMPLE: 50]? [EXAMPLE: 500]
+¿What is the average recruitment cost per person? [EXAMPLE: 12000.00]? [EXAMPLE: 1500.00]
+¿What is the training cost per person? [EXAMPLE: 8000.00]? [EXAMPLE: 1500.00]
+¿What is the average monthly salary of each agent? [EXAMPLE: 9000.00]? [EXAMPLE: 1500.00]
 
 # USER INSTRUCTIONS:
 # 1. Replace [EXAMPLE: value] with your actual data
 # 2. You can omit the 'DIMENSION:' lines if you prefer
 # 3. Maintain the question-answer format
-# 4. Numeric values do not require any specific formatting
+# 4. Numeric values ​​do not require any specific formatting
 # 5. Percentages can be 60% or 0.6

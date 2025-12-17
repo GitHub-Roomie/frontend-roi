@@ -46,6 +46,9 @@ const systemConfigs: Record<string, { name: string; dimensions: string[] }> = {
       'Cost for Case Recurrence',
       'Operational Cost',
       'Cost for Poor Quality',
+      'Inefficient Agent Usage',
+      'Infrastructure and Technology Costs',
+      'Personnel Turnover Costs'
     ],
   },
   'insights': {
