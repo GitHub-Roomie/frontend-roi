@@ -1,22 +1,31 @@
-DIMENSION: Average Handle Time (AHT)
-==================================================
-¿Current Average Handle Time in seconds? [ EXAMPLE: 500]
-¿Target Average Handle Time in seconds? [ EXAMPLE: 500]
-¿Total monthly interactions? [ EXAMPLE: 10000]
-¿Agent cost per second? [ EXAMPLE: 1500.00]
+# Expert Template to Customer Support ROI Calculator
 
-DIMENSION: First Contact Resolution (FCR)
+DIMENSION: Cost for Delay in Case Handling
 ==================================================
-¿Total monthly interactions? [ EXAMPLE: 10000]
-¿Current First Contact Resolution percentage? [ EXAMPLE: 60%]
-¿Average cost per contact? [ EXAMPLE: 1500.00]
+¿What is the current average case handling time in seconds? [EXAMPLE: 500]
+¿What is the desired average case handling time in seconds? [EXAMPLE: 500]
+¿How many cases are there per year? [EXAMPLE: 10000]
+¿What is the cost per agent per second? [EXAMPLE: 1500.00]
 
-DIMENSION: Cost Per Contact
+DIMENSION: Cost for Case Recurrence
 ==================================================
-¿Total operational costs of the monthly period? [ EXAMPLE: 1500.00]
+¿How many cases are there per year? [EXAMPLE: 10000]
+¿What percentage of cases were resolved in the first iteration? [EXAMPLE: 60%]
+¿What is the annual operational cost? [EXAMPLE: 1500.00]
 
-DIMENSION: Quality and Customer Experience (CX)
+DIMENSION: Operational Cost
 ==================================================
-¿Number of interactions with critical failure per month? [ EXAMPLE: 10000]
-¿Percentage of impact on callbacks? [ EXAMPLE: 60%]
-¿Average cost per contact? [ EXAMPLE: 1500.00]
+¿What is the operational cost without considering the IT area? [EXAMPLE: 1500.00]
+
+DIMENSION: Cost for Poor Quality
+==================================================
+¿How many calls did not meet the expected quality annually? [EXAMPLE: 10000]
+¿What is the percentage of those calls that had recurrence? [EXAMPLE: 60%]
+¿What is the annual operational cost? [EXAMPLE: 1500.00]
+
+# USER INSTRUCTIONS:
+# 1. Replace [EXAMPLE: value] with your actual data
+# 2. You can omit the 'DIMENSION:' lines if you prefer
+# 3. Maintain the question-answer format
+# 4. Numeric values do not require any specific formatting
+# 5. Percentages can be 60% or 0.6
