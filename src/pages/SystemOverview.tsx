@@ -130,9 +130,9 @@ const systemConfigs: Record<string, { name: string; dimensions: string[] }> = {
   'customer_support_automation': {
     name: 'Customer Support Automation',
     dimensions: [
-      'Agent Underutilization',
-      'Infrastructure and Technology',
-      'Personnel Turnover',
+      'Inefficient Agent Usage',
+      'Infrastructure and Technology Costs',
+      'Personnel Turnover Costs',
     ],
   },
 };
