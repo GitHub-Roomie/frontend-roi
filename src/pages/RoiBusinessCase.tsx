@@ -24,13 +24,6 @@ const modules = [
     route: "customer_support"
   },
   {
-    title: "Customer Support Automation",
-    subtitle: "Customer Support Automation",
-    icon: AgenticCustomerITSupport,
-    description: "Automate support operations",
-    route: "customer_support_automation"
-  },
-  {
     title: "Legal & Compliance",
     subtitle: "Legal & Compliance",
     icon: LegalCompliance,

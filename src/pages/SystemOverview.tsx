@@ -125,14 +125,6 @@ const systemConfigs: Record<string, { name: string; dimensions: string[] }> = {
       'Financial Friction and Insurance Cost',
     ],
   },
-  'customer_support_automation': {
-    name: 'Customer Support Automation',
-    dimensions: [
-      'Inefficient Agent Usage',
-      'Infrastructure and Technology Costs',
-      'Personnel Turnover Costs',
-    ],
-  },
 };
 
 export default function SystemOverview() {
