@@ -1,0 +1,73 @@
+# Expert Template for Enterprise Application Automation ROI Calculator
+# Replace [EXAMPLE: value] with your actual data
+
+DIMENSION: Recurring Licensing and Software Maintenance
+==================================================
+Base value of acquired licenses (Perpetual licenses or annual Cloud subscription)? [EXAMPLE: 1600000]
+Annual maintenance rate (e.g. SAP Enterprise Support is usually ~22%)? [EXAMPLE: 22]
+Cost for documents created by third parties/interfaces (Indirect Access)? [EXAMPLE: 200000]
+Annual database maintenance cost (HANA, Oracle, SQL) if not included in runtime? [EXAMPLE: 500000]
+
+DIMENSION: Operational Support and Human Capital
+==================================================
+Number of internal employees (FTEs) dedicated to SAP support and maintenance (CoE, Basis)? [EXAMPLE: 5]
+Average annual cost per support employee (Salary + Social charges + Benefits)? [EXAMPLE: 45000]
+Annual cost of contract with external support and application management providers (AMS)? [EXAMPLE: 120000]
+Annual budget for IT/SAP Support team training and updates? [EXAMPLE: 5000]
+
+DIMENSION: Transactional Inefficiency and Rework
+==================================================
+Total annual volume of critical operational transactions (e.g. Orders, Invoices)? [EXAMPLE: 50000]
+Percentage of transactions requiring correction, cancellation or manual re-entry due to errors? [EXAMPLE: 15]
+Average time in minutes to correct an erroneous transaction? [EXAMPLE: 10]
+Average hourly cost of human operator (Salary + Charges)? [EXAMPLE: 25]
+
+DIMENSION: Shadow IT Processes
+==================================================
+Number of operational users who regularly perform manual tasks outside SAP (Excel, emails)? [EXAMPLE: 20]
+Average hours per week a user spends manipulating SAP data in external tools like Excel? [EXAMPLE: 6]
+Average hourly cost of these operational users? [EXAMPLE: 25]
+
+DIMENSION: Business Risk and Internal Control
+==================================================
+Estimated annual probability of an operational risk event (e.g. fraud, duplicate payment)? [EXAMPLE: 5]
+Estimated average financial impact per materialized risk event? [EXAMPLE: 10000]
+Annual cost of manually managing Segregation of Duties (SoD) conflicts? [EXAMPLE: 5000]
+
+DIMENSION: Transactional Execution Cost
+==================================================
+Total volume of standard transactions to evaluate annually? [EXAMPLE: 50000]
+Average time in minutes to complete a standard transaction without errors (happy path)? [EXAMPLE: 5]
+Hourly cost of operator executing these transactions? [EXAMPLE: 25]
+
+DIMENSION: Learning Curve and Turnover Cost
+==================================================
+Number of SAP operational employees who rotate (leave and are replaced) annually? [EXAMPLE: 10]
+Average recruitment and onboarding cost per new employee? [EXAMPLE: 2000]
+Hours of formal training a new employee receives? [EXAMPLE: 40]
+Hourly cost of instructor or training resource? [EXAMPLE: 50]
+Operational hours for employee to reach full productivity (Learning curve)? [EXAMPLE: 160]
+Average percentage of productivity loss during learning curve? [EXAMPLE: 50]
+Hourly cost of new operational employee? [EXAMPLE: 25]
+
+DIMENSION: Rectification and Non-Quality Cost
+==================================================
+Number of serious operational errors reaching end of process annually (e.g. wrong shipments, incorrect payments)? [EXAMPLE: 100]
+Average administrative cost to rectify an error (credit notes, cancellations)? [EXAMPLE: 50]
+Average logistics or physical cost per error (returns, re-shipments, lost materials)? [EXAMPLE: 150]
+Average amount of fines or penalties per error (if applicable)? [EXAMPLE: 100]
+
+DIMENSION: Audit and Compliance Cost
+==================================================
+Annual hours internal audit team dedicates to reviewing SAP processes? [EXAMPLE: 200]
+Hourly cost of internal auditor? [EXAMPLE: 60]
+Annual external audit fees related to SAP processes? [EXAMPLE: 15000]
+Annual hours operational staff dedicates to gathering evidence and attending auditors? [EXAMPLE: 100]
+Hourly cost of operational staff attending audits? [EXAMPLE: 25]
+
+# INSTRUCTIONS:
+# 1. Replace [EXAMPLE: value] with your actual data
+# 2. You can omit the 'DIMENSION:' lines if you prefer
+# 3. Maintain the question-answer format
+# 4. Numeric values do not require any specific formatting
+# 5. Percentages can be 60% or 60

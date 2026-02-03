@@ -128,6 +128,20 @@ const systemConfigs: Record<string, { name: string; dimensions: string[] }> = {
       'Financial Friction and Insurance Cost',
     ],
   },
+  'enterprise_application_automation': {
+    name: 'Enterprise Application Automation',
+    dimensions: [
+      'Recurring Licensing and Software Maintenance',
+      'Operational Support and Human Capital',
+      'Transactional Inefficiency and Rework',
+      'Shadow IT Processes',
+      'Business Risk and Internal Control',
+      'Transactional Execution Cost',
+      'Learning Curve and Turnover Cost',
+      'Rectification and Non-Quality Cost',
+      'Audit and Compliance Cost',
+    ],
+  },
 };
 
 export default function SystemOverview() {
