@@ -95,6 +95,7 @@ export default function ChatInterface() {
     'real_time_insights': 'Real Time Insights',
     'physical-ai': 'Physical AI',
     'web-takeover': 'Web Interface Takeover',
+    'enterprise_application_automation': 'Enterprise Application Automation',
   };
 
   const displayName = system ? (systemNames[system] || system) : '';
@@ -454,6 +455,9 @@ export default function ChatInterface() {
                 } else if (roiSystem === 'real_time_insights') {
                   templateFile = '/Plantilla_Real_Time_Insights.txt';
                   templateName = 'template_real_time_insights.txt';
+                } else if (roiSystem === 'enterprise_application_automation') {
+                  templateFile = '/Plantilla_Enterprise_Application_Automation.txt';
+                  templateName = 'template_enterprise_application_automation.txt';
                 } else {
                   // Default template
                   templateFile = '/Plantilla_Legacy_TakeOver.txt';

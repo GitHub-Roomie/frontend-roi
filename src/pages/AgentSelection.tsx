@@ -30,6 +30,7 @@ export default function AgentSelection() {
     'real_time_insights': 'Real Time Insights',
     'physical-ai': 'Physical AI',
     'web-takeover': 'Web Interface Takeover',
+    'enterprise_application_automation': 'Enterprise Application Automation',
   };
 
   const displayName = system ? systemNames[system] || system : '';

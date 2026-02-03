@@ -7,6 +7,7 @@ import LegalCompliance from "@/components/icons/LegalCompliance";
 import AgenticRecruitingHiringIcon from "@/components/icons/AgenticRecruitingHiringIcon";
 import LegacySystemsTakeoverIcon from "@/components/icons/LegacySystemsTakeoverIcon";
 import RealTimeInsightsIcon from "@/components/icons/RealTimeInsightsIcon";
+import EnterpriseApplicationAutomationIcon from "@/components/icons/EnterpriseApplicationAutomationIcon";
 
 const modules = [
   {
@@ -50,6 +51,13 @@ const modules = [
     icon: RealTimeInsightsIcon,
     description: "Real-time business insights",
     route: "real_time_insights"
+  },
+  {
+    title: "Enterprise Application Automation",
+    subtitle: "Enterprise Application Automation",
+    icon: EnterpriseApplicationAutomationIcon,
+    description: "Automate enterprise applications",
+    route: "enterprise_application_automation"
   }
 ];
 
